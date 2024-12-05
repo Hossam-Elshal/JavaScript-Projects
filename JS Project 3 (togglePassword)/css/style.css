@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    background-color: #ddd;
+    width: 600px;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.pass{
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+.btn{
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
